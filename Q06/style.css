@@ -1,0 +1,34 @@
+/* using margin */
+/* .main {
+  height: 300px;
+  width: 300px;
+  border: 5px red solid;
+}
+  
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: salmon;
+  border: 5px dotted blue;
+  margin: 100px auto;
+} */
+
+/* flex-box */
+.main {
+  height: 300px;
+  width: 300px;
+  border: 5px red solid;
+  display: flex;
+  flex-direction: row;
+  /* x-axis */
+  justify-content: center;
+  /* y-axis */
+  align-items: center;
+}
+  
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: salmon;
+  border: 5px dotted blue;
+}

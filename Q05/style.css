@@ -1,0 +1,30 @@
+body, div {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: rebeccapurple;
+    color: white;
+    height: 70px;
+    font-size: 1.5rem;
+    position: fixed;
+    width: 100%;
+}
+
+.section {
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+}
+
+.first {
+    background-color: coral;
+}
+
+.second {
+    background-color: lightsalmon;
+}
+
+.third {
+    background-color: peachpuff;
+}

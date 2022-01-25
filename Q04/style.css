@@ -1,0 +1,34 @@
+body, div {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    /* display: inline-block; */
+}
+
+.first {
+    background-color: coral;
+}
+
+.second {
+    background-color: lightsalmon;
+    left: 150px;
+}
+
+.third {
+    background-color: peachpuff;
+    left: 300px;
+}
+
+/* index-flex.html */
+.flex-container {
+    display: flex;
+}
+
+
+
+
